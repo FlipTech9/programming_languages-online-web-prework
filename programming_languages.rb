@@ -3,10 +3,10 @@ def reformat_languages(languages)
   
   new_hash = {}
   
-  #iterate through every item in hash 
+  #language style  
   languages.each do |style, type|
     #lanuage name 
-    type.each do |language, 
+    type.each do |language, des
   end 
      
   new_hash
