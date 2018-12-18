@@ -11,7 +11,7 @@ def reformat_languages(languages)
           new_hash[language] = description
           new_hash[language][:style] = []
         end 
-    
+    new_hash[language][:style] << style 
     end 
   end 
      
